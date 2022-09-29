@@ -4,7 +4,6 @@ to play the game called GO. AlphaToe uses a hashmap instead of using any sort of
 you won't be able to beat it no matter what!
 
 ## How To Set AlphaToe Up
-To set up AlphaToe 
 
 1. Navigate to the file in the terminal
 2. Type 'make' into the terminal creating the needed files to play
