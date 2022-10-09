@@ -12,3 +12,15 @@ you won't be able to beat it no matter what!
 5. Now pick a number between 0-8 to choose your position
 6. AlphaToe will now pick its spot 
 7. Repeat step 5 and 6 until the game is won or ends in a tie 
+
+## What languages were used
+Javascript (Jquery)
+HTML/CSS
+C 
+
+## ideas
+there will be a score board on each
+you automatically start as X
+automatically retstart after game
+it will draw a line through the winning line and then wait a second before restarting 
+then done 
