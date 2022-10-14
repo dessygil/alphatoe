@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AlphaToe</title>
+
+    <!-- Bootstrap style link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- My own style sheet -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+
+
+    <div class="container">
+      <!-- container for top part -->
+      <div>
+        <!--split right game name and rules-->
+        <div>
+          <div class="">
+            <h1>Welcome to AlphaToe</h1>
+            <p>Game Rules</p>
+            <ul>
+              <li>Chose a name to play under by entering it on the right</li>
+              <li>You begin the game by playing the first move</li>
+              <li>If you restart the game it counts as a loss</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- split left enter input and show score board-->
+        <div>
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--left score board which is the amount of games you have won-->
+      <div class="scoreboard second_segment_first_box">
+        <div class="scoreboard_name_one">
+          <h2>Place holder one</h2>
+        </div>
+        <div class="scoreboard_score">
+          <h2>5</h2>
+        </div>
+      </div>
+
+      <!-- game board-->
+      <div class="second_segment_second_box">
+        <table align="center">
+          <tr>
+            <td class="ttt_cell"></td>
+            <td class="ttt_cell"></td>
+            <td class="ttt_cell"></td>
+          </tr>
+          <tr>
+            <td class="ttt_cell"></td>
+            <td class="ttt_cell"></td>
+            <td class="ttt_cell"></td>
+          </tr>
+          <tr>
+            <td class="ttt_cell"></td>
+            <td class="ttt_cell"></td>
+            <td class="ttt_cell"></td>
+          </tr>
+        </table>
+      </div>
+      <!-- restart button somewhere-->
+
+      <!-- right score board which is the amount of games the computer has won-->
+      <div class="scoreboard second_segment_third_box">
+        <div class="scoreboard_name_two">
+          <h2>place holder two</h2>
+        </div>
+        <div class="scoreboard_score">
+          <h2>7</h2>
+        </div>
+      </div>
+    </div>
+
+    
+    <!--footer which is linked to this github project with how many stars in has and inputs-->
+    <footer></footer>
+    <!-- bootstrap script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <!-- my own script-->
+    <script src="index.js"></script>
+  </body>
+</html>

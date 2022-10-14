@@ -1,9 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from first_app.models import AccessRecords, Webpage, Topic
 # Create your views here.
 
 def index(request):
-    my_dict = {
-        "insert_me": "hello I am from veiws.py now i am coming from alphatoe/indexhtml"
-    }
-    return render(request, 'index.html', context=my_dict)
+    webpages_list = AccessRecords.objects.order_by('date')
+    date_dict = {
+        'AccessRecords': webpages_list,
+        }
+    return render(request, 'index.html', context=date_dict)
