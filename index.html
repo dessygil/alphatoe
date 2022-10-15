@@ -17,11 +17,9 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-
-
     <div class="container">
       <!-- container for top part -->
-      <div>
+      <div class = "first_segment">
         <!--split right game name and rules-->
         <div>
           <div class="">
@@ -32,66 +30,69 @@
               <li>You begin the game by playing the first move</li>
               <li>If you restart the game it counts as a loss</li>
             </ul>
+            <form>
+                Enter player Name<br>
+                <input type = "text">
+            </form>
           </div>
         </div>
 
         <!-- split left enter input and show score board-->
         <div>
           <div>
-
+            <ol>
+                <p></p>
+            </ol>
           </div>
-          <div>
+        </div>
+      </div>
 
+      <!-- entire div for the second segment-->
+      <div class= "second_segment">
+        <!--left score board which is the amount of games you have won-->
+        <div class="scoreboard second_segment_first_box">
+          <div class="scoreboard_name_one">
+            <h2>Place holder one</h2>
+          </div>
+          <div class="scoreboard_score">
+            <h2>5</h2>
           </div>
         </div>
-      </div>
 
-
-
-      <!--left score board which is the amount of games you have won-->
-      <div class="scoreboard second_segment_first_box">
-        <div class="scoreboard_name_one">
-          <h2>Place holder one</h2>
+        <!-- game board-->
+        <div class="second_segment_second_box">
+          <table align="center">
+            <tr>
+              <td class="ttt_cell"></td>
+              <td class="ttt_cell"></td>
+              <td class="ttt_cell"></td>
+            </tr>
+            <tr>
+              <td class="ttt_cell"></td>
+              <td class="ttt_cell"></td>
+              <td class="ttt_cell"></td>
+            </tr>
+            <tr>
+              <td class="ttt_cell"></td>
+              <td class="ttt_cell"></td>
+              <td class="ttt_cell"></td>
+            </tr>
+          </table>
         </div>
-        <div class="scoreboard_score">
-          <h2>5</h2>
-        </div>
-      </div>
+        <!-- restart button somewhere-->
 
-      <!-- game board-->
-      <div class="second_segment_second_box">
-        <table align="center">
-          <tr>
-            <td class="ttt_cell"></td>
-            <td class="ttt_cell"></td>
-            <td class="ttt_cell"></td>
-          </tr>
-          <tr>
-            <td class="ttt_cell"></td>
-            <td class="ttt_cell"></td>
-            <td class="ttt_cell"></td>
-          </tr>
-          <tr>
-            <td class="ttt_cell"></td>
-            <td class="ttt_cell"></td>
-            <td class="ttt_cell"></td>
-          </tr>
-        </table>
-      </div>
-      <!-- restart button somewhere-->
-
-      <!-- right score board which is the amount of games the computer has won-->
-      <div class="scoreboard second_segment_third_box">
-        <div class="scoreboard_name_two">
-          <h2>place holder two</h2>
-        </div>
-        <div class="scoreboard_score">
-          <h2>7</h2>
+        <!-- right score board which is the amount of games the computer has won-->
+        <div class="scoreboard second_segment_third_box">
+          <div class="scoreboard_name_two">
+            <h2>place holder two</h2>
+          </div>
+          <div class="scoreboard_score">
+            <h2>7</h2>
+          </div>
         </div>
       </div>
     </div>
 
-    
     <!--footer which is linked to this github project with how many stars in has and inputs-->
     <footer></footer>
     <!-- bootstrap script-->
