@@ -24,3 +24,14 @@ you automatically start as X
 automatically retstart after game
 it will draw a line through the winning line and then wait a second before restarting 
 then done 
+
+## whats new
+
+using a virtual environment through python -m venv myEnv
+use 'source myEnv/bin/activate' to get in
+use 'python 'pip install django djangorestframework' 
+
+I made django
+-django-admin startproject alphatoe
+-django-admin startapp api
+python ./manage.py migrate
