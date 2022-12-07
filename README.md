@@ -13,10 +13,6 @@ you won't be able to beat it no matter what!
 6. AlphaToe will now pick its spot 
 7. Repeat step 5 and 6 until the game is won or ends in a tie 
 
-## What languages were used
-Javascript (Jquery)
-HTML/CSS
-C 
 
 ## ideas
 there will be a score board on each
